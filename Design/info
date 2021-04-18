@@ -1,0 +1,328 @@
+{
+  "uuid": "fcf7fb624478ed9b793af85407a350cd",
+  "path": "Offline/SESBOARD",
+  "name": "SESBOARD",
+  "content": "This is ses board",
+  "created_at": "2021-04-17 21:29:38",
+  "updated_at": "2021-04-18 14:29:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5761171eef31b82dffc302ec1a57efe4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0be0e6a9bf56432381e13df21a729729": 1,
+        "146e75363251e035203be60c60650418": 1,
+        "6120522a8db139790c57da44f34e914a": 1,
+        "2e83b68c877909257b07a0358bddc1b8": 1,
+        "2ad129ff9347492da85a5fab2fa3ce4f": 2,
+        "588dac9f81df8f83843513972963b454": 1,
+        "bbb5c12a345c7a864d88bb927627d292": 4,
+        "abdd1212ba6e49ccd54a82764b455f7f": 5,
+        "353ff04a8071d3e6740fa5273965e20c": 4,
+        "c77c73576c09e7b9097260bb70651a69": 4,
+        "a44bf6dc434a8fd4ee09b93e674551af": 2,
+        "bb009484ef804a24ac5d18c54b249586": 3,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "584d673271dd43738fb1ad2dd2772015": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ESP-32S",
+          1,
+          "WIFIM-SMD_ESP-32S",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C82899",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-32S",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "expand",
+            "puuid": "805a83b7da524f8dbf75b52a12efbdcc",
+            "uuid": "0be0e6a9bf56432381e13df21a729729"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "C0805",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C376875",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805COG220J500BT",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2ad129ff9347492da85a5fab2fa3ce4f"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "OSC-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X322512MSB4SI",
+            "BOM_Supplier Part": "C9002",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "3665faf5c7824047877c19fd71b91289",
+            "uuid": "2e83b68c877909257b07a0358bddc1b8"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C13,C14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "micro USBFemale",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro USBFemale",
+            "BOM_Supplier Part": "C10418",
+            "puuid": "0213856b1ac9498c9a987141e7914387",
+            "uuid": "146e75363251e035203be60c60650418"
+          }
+        ],
+        [
+          "White light",
+          3,
+          "LED0603-R-RD",
+          "LED4,LED3,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "0603White light_C2290",
+          1,
+          "LED0603-R-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          2,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-2",
+          "SW3,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C318884",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "TS-1187A-B-A-B",
+            "BOM_Paste Type": "recommend",
+            "puuid": "f7c5a244a11e46d18864fb66f5b835b0",
+            "uuid": "584d673271dd43738fb1ad2dd2772015"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_Supplier Part": "C6186",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "CH340G",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340G",
+            "BOM_Supplier Part": "C14267",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "57bde458a1df48daae5091ee0fe1d27c",
+            "uuid": "6120522a8db139790c57da44f34e914a"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x20",
+          2,
+          "HDR-TH_20P-P2.54-V",
+          "J1,J2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1*20PHeader",
+            "BOM_Supplier Part": "C50981",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "expand",
+            "puuid": "557158869b04402dae23fcbf532a6e80",
+            "uuid": "a44bf6dc434a8fd4ee09b93e674551af"
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "C0805",
+          "C5,C9,C7,C12,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21F104ZBCNNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1760",
+            "BOM_Paste Type": "expand",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "abdd1212ba6e49ccd54a82764b455f7f"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R8,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10uF",
+          4,
+          "C0805",
+          "C3,C11,C8,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A106KPFNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C17024",
+            "BOM_Paste Type": "expand",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "bbb5c12a345c7a864d88bb927627d292"
+          }
+        ],
+        [
+          "15",
+          4,
+          "R0603",
+          "R6,R1,R5,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF150JT5E",
+            "BOM_Supplier Part": "C22810",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "c77c73576c09e7b9097260bb70651a69"
+          }
+        ]
+      ],
+      "updateTime": 1618739426,
+      "createTime": 1618702458,
+      "histories": [],
+      "created_at": "2021-04-18 02:34:18",
+      "updated_at": "2021-04-18 12:50:26"
+    },
+    {
+      "uuid": "6a72ac62cda751031df020803cdb0548",
+      "puuid": "fcf7fb624478ed9b793af85407a350cd",
+      "title": "PCB_SESBOARD",
+      "filename": "PCB_SESBOARD.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "805a83b7da524f8dbf75b52a12efbdcc": 1,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 11,
+        "3665faf5c7824047877c19fd71b91289": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 2,
+        "0213856b1ac9498c9a987141e7914387": 1,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 4,
+        "f7c5a244a11e46d18864fb66f5b835b0": 2,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "57bde458a1df48daae5091ee0fe1d27c": 1,
+        "557158869b04402dae23fcbf532a6e80": 2,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 7
+      },
+      "BOM": [],
+      "updateTime": 1618745373,
+      "createTime": 1618740622,
+      "histories": [],
+      "created_at": "2021-04-18 13:10:22",
+      "updated_at": "2021-04-18 14:29:33"
+    }
+  ],
+  "sort": [],
+  "title": "SESBOARD",
+  "foldername": "SESBOARD",
+  "schfilename": "SESBOARD.json",
+  "schfilemtime": 1618739426262
+}
