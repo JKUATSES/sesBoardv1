@@ -4,7 +4,7 @@
   "name": "SESBOARD",
   "content": "",
   "created_at": "2021-05-06 16:13:47",
-  "updated_at": "2021-05-07 09:27:12",
+  "updated_at": "2021-05-07 09:49:07",
   "stick": "",
   "documents": [
     {
@@ -352,11 +352,11 @@
         "1bf59dff03ec4233aa077dc7cf0e92a1": 8
       },
       "BOM": [],
-      "updateTime": 1620368832,
+      "updateTime": 1620370147,
       "createTime": 1620309269,
       "histories": [],
       "created_at": "2021-05-06 16:54:29",
-      "updated_at": "2021-05-07 09:27:12"
+      "updated_at": "2021-05-07 09:49:07"
     }
   ],
   "sort": [],
