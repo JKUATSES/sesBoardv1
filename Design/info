@@ -1,14 +1,14 @@
 {
-  "uuid": "0ab1cb1b773229e9ca25d139b2bf5449",
+  "uuid": "2fa941d4bfcd986778eb21c695bed6bc",
   "path": "Offline/SESBOARD",
   "name": "SESBOARD",
   "content": "",
-  "created_at": "2021-04-24 21:49:13",
-  "updated_at": "2021-04-25 10:12:04",
+  "created_at": "2021-05-06 16:13:47",
+  "updated_at": "2021-05-07 09:27:12",
   "stick": "",
   "documents": [
     {
-      "uuid": "69608a6f6e9a6960cdc1203965d32ba9",
+      "uuid": "08553155943143fce67edd8455b88bbd",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -19,17 +19,17 @@
         "24eeb2ceca08480b92b847b6a310acda": 2,
         "a44bf6dc434a8fd4ee09b93e674551af": 2,
         "353ff04a8071d3e6740fa5273965e20c": 4,
-        "c77c73576c09e7b9097260bb70651a69": 5,
+        "c77c73576c09e7b9097260bb70651a69": 4,
         "584d673271dd43738fb1ad2dd2772015": 2,
         "0be0e6a9bf56432381e13df21a729729": 1,
         "588dac9f81df8f83843513972963b454": 1,
         "6120522a8db139790c57da44f34e914a": 1,
         "2e83b68c877909257b07a0358bddc1b8": 1,
         "b585d92194385de14506b560a4a27e20": 4,
-        "ca94110f4544769d36adda4b0515e409": 6,
+        "ca94110f4544769d36adda4b0515e409": 5,
         "f46bb20164d7f2ac6b87dca970ed169e": 2,
         "a1231657c3cd1ed286eeb513f352f9e2": 2,
-        "800eda5ed5d34b7ba443a248feeebc0f": 1
+        "146e75363251e035203be60c60650418": 1
       },
       "BOM": [
         [
@@ -86,10 +86,24 @@
           }
         ],
         [
+          "micro USBFemale",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro USBFemale",
+            "BOM_Supplier Part": "C10418",
+            "puuid": "0213856b1ac9498c9a987141e7914387",
+            "uuid": "146e75363251e035203be60c60650418"
+          }
+        ],
+        [
           "White light",
           3,
           "LED0603-R-RD",
-          "LED4,LED3,LED2",
+          "LED2,LED3,LED4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "KENTO",
@@ -152,20 +166,6 @@
           }
         ],
         [
-          "U254",
-          1,
-          "MICRO-USB-SMD_U254-051T-4BH83-F1S",
-          "USB1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C397452",
-            "BOM_Manufacturer": "XKB Enterprise",
-            "BOM_Manufacturer Part": "U254-051T-4BH83-F1S",
-            "puuid": "96bd5b662faa49d28e9c1c4335ae28c5",
-            "uuid": "800eda5ed5d34b7ba443a248feeebc0f"
-          }
-        ],
-        [
           "CH340G",
           1,
           "SOIC-16_L9.9-W3.9-P1.27-LS6.0-TL",
@@ -185,7 +185,7 @@
           "Header-Male-2.54_1x20",
           2,
           "HDR-TH_20P-P2.54-V",
-          "J2,J1",
+          "J1,J2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "BOOMELE",
@@ -218,7 +218,7 @@
           "10uF",
           4,
           "C0402",
-          "C4,C8,C11,C3",
+          "C3,C4,C11,C8",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
@@ -229,19 +229,6 @@
             "BOM_Paste Type": "base",
             "puuid": "f8eca159cd18407f9d5df374a1c2badf",
             "uuid": "b585d92194385de14506b560a4a27e20"
-          }
-        ],
-        [
-          "470",
-          1,
-          "R0603",
-          "R3",
-          {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
@@ -271,27 +258,23 @@
           }
         ],
         [
-          "15",
-          4,
+          "470",
+          1,
           "R0603",
-          "R4,R1,R5,R6",
+          "R3",
           {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "UniOhm",
-            "BOM_Manufacturer Part": "0603WAF150JT5E",
-            "BOM_Supplier Part": "C22810",
-            "BOM_JLCPCB SMD": "Yes",
-            "BOM_LCSC Assembly": "Yes",
-            "BOM_Paste Type": "base",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
             "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
-            "uuid": "c77c73576c09e7b9097260bb70651a69"
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
-          "10k",
-          1,
+          "15",
+          4,
           "R0603",
-          "R9",
+          "R6,R1,R4,R5",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -306,9 +289,9 @@
         ],
         [
           "100nF",
-          6,
+          5,
           "C0402",
-          "C7,C6,C12,C5,C10,C9",
+          "C9,C7,C6,C5,C12",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05B104KO5NNNC",
@@ -339,46 +322,46 @@
           }
         ]
       ],
-      "updateTime": 1619334724,
-      "createTime": 1619290153,
+      "updateTime": 1620367854,
+      "createTime": 1620306827,
       "histories": [],
-      "created_at": "2021-04-24 21:49:13",
-      "updated_at": "2021-04-25 10:12:04"
+      "created_at": "2021-05-06 16:13:47",
+      "updated_at": "2021-05-07 09:10:54"
     },
     {
-      "uuid": "f993f4604715fc4663fc8f1291477940",
-      "puuid": "0ab1cb1b773229e9ca25d139b2bf5449",
-      "title": "PCB_SESBOARD_2",
-      "filename": "PCB_SESBOARD_2.json",
+      "uuid": "35d0877594cd51db578df221288bb299",
+      "puuid": "2fa941d4bfcd986778eb21c695bed6bc",
+      "title": "PCB_SESBOARD",
+      "filename": "PCB_SESBOARD.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "805a83b7da524f8dbf75b52a12efbdcc": 1,
-        "bbc61cb2bd3840b290cf4f8db68b3c00": 12,
-        "3665faf5c7824047877c19fd71b91289": 1,
-        "f187d3c25f9f43a29b67d3cfa364ee78": 2,
         "0213856b1ac9498c9a987141e7914387": 1,
         "50dc3b6111d549ddb6686d77ab1ebdd8": 4,
         "f7c5a244a11e46d18864fb66f5b835b0": 2,
+        "805a83b7da524f8dbf75b52a12efbdcc": 1,
+        "3665faf5c7824047877c19fd71b91289": 1,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 2,
         "9082a541b5494ed9bac7de7d69bd2f2d": 1,
         "57bde458a1df48daae5091ee0fe1d27c": 1,
         "557158869b04402dae23fcbf532a6e80": 2,
-        "1bf59dff03ec4233aa077dc7cf0e92a1": 9,
-        "bade90667a6e4731855e9a223387b8a6": 2
+        "4f7d32c395fb4911bd2391884cef30c8": 2,
+        "f8eca159cd18407f9d5df374a1c2badf": 11,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 8
       },
       "BOM": [],
-      "updateTime": 1619298364,
-      "createTime": 1619296545,
+      "updateTime": 1620368832,
+      "createTime": 1620309269,
       "histories": [],
-      "created_at": "2021-04-24 23:35:45",
-      "updated_at": "2021-04-25 00:06:04"
+      "created_at": "2021-05-06 16:54:29",
+      "updated_at": "2021-05-07 09:27:12"
     }
   ],
   "sort": [],
   "title": "SESBOARD",
   "foldername": "SESBOARD",
   "schfilename": "SESBOARD.json",
-  "schfilemtime": 1619334724752
+  "schfilemtime": 1620367854796
 }
